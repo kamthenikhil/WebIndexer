@@ -3,10 +3,22 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/InformationRetrieval"/>
-	<classpathentry kind="var" path="THIRD_PARTY_JARS/jsoup-1.8.3.jar"/>
-	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-analyzers-common-4.1.0.jar"/>
-	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-core-4.1.0.jar"/>
-	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-queryparser-4.1.0.jar"/>
 	<classpathentry kind="lib" path="config"/>
+	<classpathentry kind="var" path="THIRD_PARTY_JARS/jsoup-1.8.3.jar"/>
+	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-analyzers-3.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/nikhil/Work/Javadoc/lucene-analyzers-3.6.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-core-3.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/nikhil/Work/Javadoc/lucene-core-3.6.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="THIRD_PARTY_JARS/lucene-queryparser-3.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/nikhil/Work/Javadoc/lucene-queryparser-3.6.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
